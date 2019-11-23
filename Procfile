@@ -1,1 +1,1 @@
-web: java -war target/system4users.war
+web: java $JAVA_OPTS -cp target/classes:target/dependency/* system4users
