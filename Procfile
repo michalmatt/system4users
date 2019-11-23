@@ -1,1 +1,1 @@
-web: java $JAVA_OPTS -cp target/classes:target/dependency/* system4users
+web: java -jar target/dependency/webapp-runner.jar target/*.war
